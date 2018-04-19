@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xConnectPOC", "xConnectPOC\xConnectPOC.csproj", "{0ACCB8A9-CD97-4D61-9F0E-1068D766B147}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{3B70A432-DE3D-48F8-A631-A335C74947A2}"
+	ProjectSection(SolutionItems) = preProject
+		..\xConnect\xconnect-intro-masterNew\xconnect-intro-master\xConnect\lib\Microsoft.Extensions.Configuration.Abstractions.dll = ..\xConnect\xconnect-intro-masterNew\xconnect-intro-master\xConnect\lib\Microsoft.Extensions.Configuration.Abstractions.dll
+		..\xConnect\xconnect-intro-masterNew\xconnect-intro-master\xConnect\lib\Sitecore.Cintel.Client.dll = ..\xConnect\xconnect-intro-masterNew\xconnect-intro-master\xConnect\lib\Sitecore.Cintel.Client.dll
+		..\xConnect\xconnect-intro-masterNew\xconnect-intro-master\xConnect\lib\Sitecore.Cintel.dll = ..\xConnect\xconnect-intro-masterNew\xconnect-intro-master\xConnect\lib\Sitecore.Cintel.dll
+		..\xConnect\xconnect-intro-masterNew\xconnect-intro-master\xConnect\lib\Sitecore.Framework.Conditions.dll = ..\xConnect\xconnect-intro-masterNew\xconnect-intro-master\xConnect\lib\Sitecore.Framework.Conditions.dll
+		..\xConnect\xconnect-intro-masterNew\xconnect-intro-master\xConnect\lib\Sitecore.XConnect.Client.Configuration.dll = ..\xConnect\xconnect-intro-masterNew\xconnect-intro-master\xConnect\lib\Sitecore.XConnect.Client.Configuration.dll
+		..\xConnect\xconnect-intro-masterNew\xconnect-intro-master\xConnect\lib\Sitecore.XConnect.Client.dll = ..\xConnect\xconnect-intro-masterNew\xconnect-intro-master\xConnect\lib\Sitecore.XConnect.Client.dll
+		..\xConnect\xconnect-intro-masterNew\xconnect-intro-master\xConnect\lib\Sitecore.XConnect.Collection.Model.dll = ..\xConnect\xconnect-intro-masterNew\xconnect-intro-master\xConnect\lib\Sitecore.XConnect.Collection.Model.dll
+		..\xConnect\xconnect-intro-masterNew\xconnect-intro-master\xConnect\lib\Sitecore.XConnect.dll = ..\xConnect\xconnect-intro-masterNew\xconnect-intro-master\xConnect\lib\Sitecore.XConnect.dll
+		..\xConnect\xconnect-intro-masterNew\xconnect-intro-master\xConnect\lib\Sitecore.XConnect.Search.dll = ..\xConnect\xconnect-intro-masterNew\xconnect-intro-master\xConnect\lib\Sitecore.XConnect.Search.dll
+		..\xConnect\xconnect-intro-masterNew\xconnect-intro-master\xConnect\lib\Sitecore.Xdb.Common.Web.dll = ..\xConnect\xconnect-intro-masterNew\xconnect-intro-master\xConnect\lib\Sitecore.Xdb.Common.Web.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0ACCB8A9-CD97-4D61-9F0E-1068D766B147}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ACCB8A9-CD97-4D61-9F0E-1068D766B147}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ACCB8A9-CD97-4D61-9F0E-1068D766B147}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ACCB8A9-CD97-4D61-9F0E-1068D766B147}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

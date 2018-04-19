@@ -1,0 +1,29 @@
+﻿@model xConnectPOC.Models.ContactModel
+@{
+    ViewBag.Title = "Create";
+}
+<style>
+    .field-validation-error{
+        color:red;
+        padding-left:20px;
+    }
+</style>
+<h1>Create Contact in xDB</h1>
+<h4 style="color:orange">@ViewBag.message</h4>
+@using (Html.BeginForm("Create","Contact", FormMethod.Post))
+{
+    @Html.LabelFor(m => m.FirstName);
+    @Html.TextBoxFor(m => m.FirstName);
+    @Html.ValidationMessageFor(m => m.FirstName);
+    <br />
+    @Html.LabelFor(m => m.LastName);
+    @Html.TextBoxFor(m => m.LastName);
+    @Html.ValidationMessageFor(m=>m.LastName);
+    <br />
+    @Html.LabelFor(m => m.Email);
+    @Html.TextBoxFor(m => m.Email);
+    @Html.ValidationMessageFor(m=>m.Email);
+    <br />
+    <input type="submit" value="submit"/>
+}
+
