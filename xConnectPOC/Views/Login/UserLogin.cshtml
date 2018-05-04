@@ -1,0 +1,20 @@
+﻿@model xConnectPOC.Models.UserLoginModel
+@{
+    Layout = null;
+}
+
+@{
+    using (Html.BeginForm("UserLogin", "Login"))
+    {
+        @Html.LabelFor(m=>m.Email)
+        @Html.TextBoxFor(m => m.Email)
+
+        <br/>
+        @Html.LabelFor(m=>m.Password)
+        @Html.TextBoxFor(m=>m.Password)
+
+        <input type="submit" value="login" />
+
+
+    }
+}

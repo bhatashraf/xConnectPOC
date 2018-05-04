@@ -65,6 +65,15 @@
     <Reference Include="Sitecore.Framework.Conditions">
       <HintPath>..\lib\Sitecore.Framework.Conditions.dll</HintPath>
     </Reference>
+    <Reference Include="Sitecore.Kernel">
+      <HintPath>..\lib\Sitecore.Kernel.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Mvc">
+      <HintPath>..\lib\Sitecore.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Mvc.Analytics">
+      <HintPath>..\lib\Sitecore.Mvc.Analytics.dll</HintPath>
+    </Reference>
     <Reference Include="Sitecore.XConnect">
       <HintPath>..\lib\Sitecore.XConnect.dll</HintPath>
     </Reference>
@@ -159,6 +168,7 @@
     <Content Include="Global.asax" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <None Include="Properties\PublishProfiles\sc9.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -168,10 +178,12 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\ContactController.cs" />
+    <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\ContactModel.cs" />
+    <Compile Include="Models\UserLoginModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\ClientService\XConnect.cs" />
     <Compile Include="Services\ContactService\xDBContact.cs" />
@@ -186,6 +198,9 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\Contact\Create.cshtml" />
+    <Content Include="Views\Layouts\MvcLayout.cshtml" />
+    <Content Include="Views\Feature.cshtml" />
+    <Content Include="Views\Login\UserLogin.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

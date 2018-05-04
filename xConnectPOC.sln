@@ -7,16 +7,19 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xConnectPOC", "xConnectPOC\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{3B70A432-DE3D-48F8-A631-A335C74947A2}"
 	ProjectSection(SolutionItems) = preProject
-		..\xConnect\xconnect-intro-masterNew\xconnect-intro-master\xConnect\lib\Microsoft.Extensions.Configuration.Abstractions.dll = ..\xConnect\xconnect-intro-masterNew\xconnect-intro-master\xConnect\lib\Microsoft.Extensions.Configuration.Abstractions.dll
-		..\xConnect\xconnect-intro-masterNew\xconnect-intro-master\xConnect\lib\Sitecore.Cintel.Client.dll = ..\xConnect\xconnect-intro-masterNew\xconnect-intro-master\xConnect\lib\Sitecore.Cintel.Client.dll
-		..\xConnect\xconnect-intro-masterNew\xconnect-intro-master\xConnect\lib\Sitecore.Cintel.dll = ..\xConnect\xconnect-intro-masterNew\xconnect-intro-master\xConnect\lib\Sitecore.Cintel.dll
-		..\xConnect\xconnect-intro-masterNew\xconnect-intro-master\xConnect\lib\Sitecore.Framework.Conditions.dll = ..\xConnect\xconnect-intro-masterNew\xconnect-intro-master\xConnect\lib\Sitecore.Framework.Conditions.dll
-		..\xConnect\xconnect-intro-masterNew\xconnect-intro-master\xConnect\lib\Sitecore.XConnect.Client.Configuration.dll = ..\xConnect\xconnect-intro-masterNew\xconnect-intro-master\xConnect\lib\Sitecore.XConnect.Client.Configuration.dll
-		..\xConnect\xconnect-intro-masterNew\xconnect-intro-master\xConnect\lib\Sitecore.XConnect.Client.dll = ..\xConnect\xconnect-intro-masterNew\xconnect-intro-master\xConnect\lib\Sitecore.XConnect.Client.dll
-		..\xConnect\xconnect-intro-masterNew\xconnect-intro-master\xConnect\lib\Sitecore.XConnect.Collection.Model.dll = ..\xConnect\xconnect-intro-masterNew\xconnect-intro-master\xConnect\lib\Sitecore.XConnect.Collection.Model.dll
-		..\xConnect\xconnect-intro-masterNew\xconnect-intro-master\xConnect\lib\Sitecore.XConnect.dll = ..\xConnect\xconnect-intro-masterNew\xconnect-intro-master\xConnect\lib\Sitecore.XConnect.dll
-		..\xConnect\xconnect-intro-masterNew\xconnect-intro-master\xConnect\lib\Sitecore.XConnect.Search.dll = ..\xConnect\xconnect-intro-masterNew\xconnect-intro-master\xConnect\lib\Sitecore.XConnect.Search.dll
-		..\xConnect\xconnect-intro-masterNew\xconnect-intro-master\xConnect\lib\Sitecore.Xdb.Common.Web.dll = ..\xConnect\xconnect-intro-masterNew\xconnect-intro-master\xConnect\lib\Sitecore.Xdb.Common.Web.dll
+		xconnect-intro-masterNew\xconnect-intro-master\xConnect\lib\Microsoft.Extensions.Configuration.Abstractions.dll = xconnect-intro-masterNew\xconnect-intro-master\xConnect\lib\Microsoft.Extensions.Configuration.Abstractions.dll
+		xconnect-intro-masterNew\xconnect-intro-master\xConnect\lib\Sitecore.Cintel.Client.dll = xconnect-intro-masterNew\xconnect-intro-master\xConnect\lib\Sitecore.Cintel.Client.dll
+		xconnect-intro-masterNew\xconnect-intro-master\xConnect\lib\Sitecore.Cintel.dll = xconnect-intro-masterNew\xconnect-intro-master\xConnect\lib\Sitecore.Cintel.dll
+		xconnect-intro-masterNew\xconnect-intro-master\xConnect\lib\Sitecore.Framework.Conditions.dll = xconnect-intro-masterNew\xconnect-intro-master\xConnect\lib\Sitecore.Framework.Conditions.dll
+		C:\websites\sc82\Website\bin\Sitecore.Kernel.dll = C:\websites\sc82\Website\bin\Sitecore.Kernel.dll
+		lib\Sitecore.Mvc.Analytics.dll = lib\Sitecore.Mvc.Analytics.dll
+		lib\Sitecore.Mvc.dll = lib\Sitecore.Mvc.dll
+		xconnect-intro-masterNew\xconnect-intro-master\xConnect\lib\Sitecore.XConnect.Client.Configuration.dll = xconnect-intro-masterNew\xconnect-intro-master\xConnect\lib\Sitecore.XConnect.Client.Configuration.dll
+		xconnect-intro-masterNew\xconnect-intro-master\xConnect\lib\Sitecore.XConnect.Client.dll = xconnect-intro-masterNew\xconnect-intro-master\xConnect\lib\Sitecore.XConnect.Client.dll
+		xconnect-intro-masterNew\xconnect-intro-master\xConnect\lib\Sitecore.XConnect.Collection.Model.dll = xconnect-intro-masterNew\xconnect-intro-master\xConnect\lib\Sitecore.XConnect.Collection.Model.dll
+		xconnect-intro-masterNew\xconnect-intro-master\xConnect\lib\Sitecore.XConnect.dll = xconnect-intro-masterNew\xconnect-intro-master\xConnect\lib\Sitecore.XConnect.dll
+		xconnect-intro-masterNew\xconnect-intro-master\xConnect\lib\Sitecore.XConnect.Search.dll = xconnect-intro-masterNew\xconnect-intro-master\xConnect\lib\Sitecore.XConnect.Search.dll
+		xconnect-intro-masterNew\xconnect-intro-master\xConnect\lib\Sitecore.Xdb.Common.Web.dll = xconnect-intro-masterNew\xconnect-intro-master\xConnect\lib\Sitecore.Xdb.Common.Web.dll
 	EndProjectSection
 EndProject
 Global
